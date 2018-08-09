@@ -1,3 +1,7 @@
-Hello {{ username }}
+{% extends "base.html.twig" %}
 
-<a href="{{ path('logout') }}">Logout</a>
+{% block body %}
+    <p>Hello {{ username }}</p>
+
+    <a href="{{ path('logout') }}">Logout</a>
+{% endblock %}
