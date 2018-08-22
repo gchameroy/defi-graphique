@@ -1,7 +1,7 @@
 Défi graphique
 ===============
 
-[![Build Status](https://travis-ci.org/gchameroy/defi-graphique.svg?branch=master)](https://travis-ci.org/gchameroy/defi-graphique)
+[![buddy pipeline](https://app.buddy.works/geoffreychameroy/defi-graphique/pipelines/pipeline/148965/badge.svg?token=eae23eb4a245269757ce999d67a5c00771d4cde3c953cf735a0287df6be29452 "buddy pipeline")](https://app.buddy.works/geoffreychameroy/defi-graphique/pipelines/pipeline/148965)
 
 Installing Application
 ----------------
