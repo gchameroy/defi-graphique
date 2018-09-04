@@ -5,7 +5,7 @@ namespace App\Tests\functional;
 use App\Tests\FunctionalTester;
 use Codeception\Util\HttpCode;
 
-class loginCest
+class LoginCest
 {
     public function tryLogin(FunctionalTester $I)
     {

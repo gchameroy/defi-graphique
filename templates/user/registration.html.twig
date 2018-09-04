@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+{% import 'macro/forms.html.twig' as forms %}
+
+{% block body %}
+    <h4>Inscription</h4>
+    {{ form_start(form, {'attr': {'class': 'form-horizontal'} })  }}
+    {{ form_widget(form) }}
+    {{ forms.submit('Enregistrer', 'primary') }}
+    {{ form_end(form) }}
+{% endblock %}
